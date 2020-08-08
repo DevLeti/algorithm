@@ -28,23 +28,25 @@ int main()
 	//check max_count
 	int max_count = -1;
 	int max_index = -1;
+
+	bool same_flag = false;
 	for (int i = 0; i < alphabet_used.size(); i++)
 	{
 		if(max_count < alphabet_used[i])
 		{
 			max_count = alphabet_used[i];
 			max_index = i;
+			same_flag = false;
 		}
 
 		else if (max_count == alphabet_used[i] && alphabet_used[i] != 0)
 		{
-			max_count = -1;
-			break;
+			same_flag = true;
 		}
 	}
 	
 	//print
-	if(max_count == -1)
+	if(same_flag)
 	{
 		cout << '?';
 	}
@@ -53,5 +55,5 @@ int main()
 		cout << (char) max_index;
 	}
 
-	return 1;
+	return 0;
 }
