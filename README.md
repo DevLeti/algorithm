@@ -17,9 +17,9 @@
 ## Class achieved @ solved.ac
 
 - class 1 : 2020-08-11 달성.
-  - ![image-20200811185712610](C:\Users\starc\AppData\Roaming\Typora\typora-user-images\image-20200811185712610.png)
+  - ![](.\img\class_1_achieved.png)
 - class 2 : on progress - 3/40 completed.
-  - ![image-20200811195114653](C:\Users\starc\AppData\Roaming\Typora\typora-user-images\image-20200811195114653.png)
+  - ![](.\img\level_2_in_progress.png)
 
 
 
