@@ -45,6 +45,9 @@ archive_len = 0
 1 10
 99
 
+answer 9
+output 6 (틀림)
+
     cut_lan_length = cut_lan_length // 2 --> 나누는 방법이 잘못된듯..
     이진이니까 감소시키고 개수 만족시켰다고 끝내지 않고 length를 올려가면서 확인해야할듯
 """
