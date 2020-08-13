@@ -18,7 +18,7 @@
 
 - class 1 : 2020-08-11 달성.
   - ![](./img/class_1_achieved.png)
-- class 2 : on progress - 3/40 completed.
+- class 2 : on progress - 4/40 completed.
   - ![](./img/level_2_in_progress.png)
 
 
