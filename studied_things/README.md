@@ -19,7 +19,13 @@
   - return value : 모르겠다.. _삭제되는 값의 앞 index?_
   - s~r까지 싹다 날림. vector의 size는 알아서 조정됨.
 
+### float
 
+- float 오차
+  - 2108문제에서 산술평균 답 할때 틀렸는데, 그 이유가 평균값 변수 타입을 'double이 아닌 float(오차 발생) 으로 해서'였다.
+  - float의 상대오차는 **10^-7**이고 double의 상대오차는 10^-15정도이다.
+  - double을 쓴다고 많이 느려지지 않는다. 
+  - 그러므로 문제를 풀 때는 float보다는 double형 변수를 쓰는게 좋다!
 
 ### string
 
