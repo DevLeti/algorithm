@@ -21,7 +21,9 @@
 - class 2 : on progress - 8/40 completed.
   - ![](./img/level_2_in_progress.png)
 
-
+## rank achieved @ solved.achieved
+- silver : 2021-01-10 달성.
+  - ![](./img/silver_v.png)
 
 ## Accout info change
 
