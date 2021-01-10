@@ -8,14 +8,23 @@
   - endl함수는 개행만 해주는 것 뿐만 아니라 내부 버퍼까지 비워버리는 기능도 수행함.
   - 10814... 에서 이중 벡터가 문제가 있어서 그런줄 알았는데 알고보니 얘 때문이었다... 클래스까지 만들면서 삽질했는데;;
   - 알고리즘 문제를 풀때 endl은 **절대절대절대** 쓰지말자.. '\n'가 짱이다
-
+- 숫자 자리수 출력 개수 조절 & 소수점 자리수 출력 개수 조절
+  - `cout.precision(6)`
+    - 가장 큰 자리수 부터 숫자 6개를 출력한다는 뜻.
+	- ex) 4321.123456이면 4321.12이다.
+	- 기본 설정이 6이다.
+  - `cout << fixed`
+    - 나타낼 소수점 자릿수를 고정한다.
+	- `cout << fixed`하고 `cout.precision(3)`하면 소수점 3자리까지 출력한다는 뜻이 된다.
+	- ex) 4321.123567 이면 4321.12**4**까지 출력됨. **4인 이유는 다음자리에서 반올림 하기 때문.**
+	- 해제는 `cout.unsetf(ios::fixed)`
 ### vector
 
-- unique(vector.begin(), vector.end())
+- `unique(vector.begin(), vector.end())`
   - return value : 중복된 값이 시작되는 index.
   - 수를 비교해가면서 중복되는 값은 뒤로 보내버림.
   - 먼저 sort한 후 unique로 뒤로 보내버리자.
-- erase(vector.begin()+s, vector.end()+r)
+- `erase(vector.begin()+s, vector.end()+r)`
   - return value : 모르겠다.. _삭제되는 값의 앞 index?_
   - s~r까지 싹다 날림. vector의 size는 알아서 조정됨.
 
