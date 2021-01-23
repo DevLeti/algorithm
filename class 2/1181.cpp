@@ -50,6 +50,7 @@ int main()
 		}
 	}
 	
-	//memory : 4492kb, time : 828ms
 	return 0;
 }
+
+//4492KB, 828ms

@@ -51,3 +51,5 @@ int main(){
 	
 	return 0;
 }
+
+//3680KB, 52ms

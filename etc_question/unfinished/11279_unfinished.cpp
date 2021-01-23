@@ -205,11 +205,13 @@ int MaxHeap::DownSort(int root)
 // 여기서 문제인듯
 int MaxHeap::UpSort(int child)
 {
+	/*
     if(len == 0)
     {
         return 1;
     }
-    
+    */
+	
     if(child == 1) // child가 root면 끝
     {
         return 1;
