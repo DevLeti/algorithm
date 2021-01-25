@@ -1,7 +1,6 @@
 # sjb_algorithm
 - 사지방에서 푼 문제들 모음.
-
-- solved.ac의 [class](https://solved.ac/class)순서로 차곡차곡 풀 예정.
+- solved.ac의 [class](https://solved.ac/class)와 [프로그래머스](https://programmers.co.kr/), [단계별로 풀어보기](https://www.acmicpc.net/step) 3곳의 문제를 풀 예정.
 
 
 
@@ -25,13 +24,13 @@
 - silver : 2021-01-10 달성.
   - ![](./img/silver_v.png)
 
+<!--
 ## Accout info change
-
 - 2020-08-11
   - Ranking : 27443
   - Ranking @ School : 198
   - Correct problems : 54
-
+-->
 
 
 ## Reference
