@@ -42,6 +42,16 @@
 - `erase(vector.begin()+s, vector.end()+r)`
   - return value : 모르겠다.. _삭제되는 값의 앞 index?_
   - s~r까지 싹다 날림. vector의 size는 알아서 조정됨.
+- `upper_bound(vector.begin(), vector.end(), T target)`
+  - return value : vector<T>::iterator result
+  - 이진탐색 기반이어서 정렬되어 있어야한다.
+  - target의 값을 초과하는 가장 첫번째 원소의 위치를 return함.
+- `lower_bound(vector.begin(), vector.end(), T target)`
+  - return value : vector<T>::iterator result
+  - 이진탐색 기반이어서 정렬되어 있어야한다.
+  - target의 값 이상이 처음 나오는 원소의 위치를 return 함.
+  - [10816](https://www.acmicpc.net/problem/10816)문제에서 upper_bound(...) - lower_bound(...)로 주어진 값의 카드가 몇장 있는지 찾아냈다.
+  - 직접 구현하는 코드는 [이쪽](https://blockdmask.tistory.com/168);
   
 ### float
 - float 오차
