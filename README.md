@@ -4,7 +4,7 @@
 
 
 
-## The reason why I started study algorithm
+## The reason why I started studying algorithm
 - 군대에 있을 땐 연등시간을 슬기롭게 보내기 위해.
 - 전공이 컴공이고 취업을 위해서 당연히 필요한 공부이니까.
 - 매일 조금이라도 공부하는 습관을 들이기 위해.
